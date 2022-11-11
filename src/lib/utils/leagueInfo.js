@@ -10,7 +10,7 @@ export const homepageText = `
   <p>Welcome to The League.</p>
   <p>Just testing out this, cause i thought it would be cool to have. </p>
   <p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
-  <p>**The constitution is not accurate to this league yet**</p>
+  <p></p>
   <p></p>
   <p></p>
 `;
