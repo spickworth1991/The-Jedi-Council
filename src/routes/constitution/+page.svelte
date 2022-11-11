@@ -230,6 +230,8 @@
     
     <p> Currently using a daily wire system, with no FAAB. Players currently stay on wire after playing until Wed at 3AM EST. Wednesday, Thursday, Friday, and Sunday the waivers are reset that day. Saturday is free agency </p>
     
+    <p> If FAAB system goes into place, rules set for FAAB will be followed. <p/>
+    
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 3AM EST.</p>
 
     <p>FAAB budgets will reset each season in January.</p>
