@@ -173,6 +173,7 @@
         <li>15 Bench Positions</li>
         <li>3 Injured Reserve Slots</li>
         <li>4 Taxi Squad</li>
+    </ul>
     
     <p class="underscore">Starters (10 players)</p>
      <ul>
