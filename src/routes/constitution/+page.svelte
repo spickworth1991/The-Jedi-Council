@@ -194,7 +194,7 @@
         <ul>
             <li>Player must be labeled as IR, Out, or Covid in the Sleeper App</li>
             <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation</li>
-            <li>If a manager is caught attempting to hold players on the Injured Reserve with the incorrect desgniation to avoid dropping a player, the will recieve a warning and will be expected to correct their roster.</li>
+            <li>If a manager is caught attempting to hold players on the Injured Reserve with the incorrect desgniation to avoid dropping a player, they will recieve a warning and will be expected to correct their roster.</li>
             <li> If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then the manager with highest waiver priority will be allowed to pickup said player.</li>
         </ul>
     
@@ -219,9 +219,9 @@
         </div>
 
 
-    <h3 class="subSectionHeading" bind:this={oneTwo}>2.2 Trading</h3>
+    <h3 bind:this={oneTwo}>2.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away only if paid for that year) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away only if paid for that year) are allowed and encouraged. Trades will process immediately but will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>2.2.1 Trade Collusion</h4>
     <div class="subBlock">
