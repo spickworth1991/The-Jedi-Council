@@ -151,8 +151,8 @@
     
     <hr />
     
-        <h2 class="sectionHeading" bind:this={eight}>Section 1 Changes from Previous Season. These were voted and passed by majority. </h2>
-        <p> These were voted on and passed by a majority. All changes will always need a majority vote to pass, and  will be listed in Section 1 of this constitution. Changes will not be made mid season unless extenuating circumstances occur, that causes league breaking issues.    
+        <h2 class="sectionHeading" bind:this={eight}>Section 1 Changes from Previous Season.  </h2>
+        <p> These were voted on and passed by a majority. All changes will always need a majority vote to pass, and will always be listed in Section 1 of this constitution the first year they are implented. Changes will not be made mid season unless extenuating circumstances occur, that causes league breaking issues.    
     
     <h3 bind:this={eightOne}>1.1 End of Season</h3>
     <p>Starting in 2023 the Season will now last 17 weeks, instead of 18 weeks like in 2022. The playoffs will start week 15 and The Championship match and 3rd place match will take place Week 17.</p>
@@ -167,10 +167,15 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>2.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
-    
-    <p class="underscore">Starters</p>
+    <p class="underscore">32 Total Players</p>
     <ul>
+        <li>10 Starters Positions</li>
+        <li>15 Bench Positions</li>
+        <li>3 Injured Reserve Slots</li>
+        <li>4 Taxi Squad</li>
+    
+    <p class="underscore">Starters (10 players)</p>
+     <ul>
         <li>QB</li>
         <li>RB</li>
         <li>RB</li>
@@ -183,9 +188,17 @@
         <li>SUPERFLEX (RB/WR/TE/QB)</li> 
     </ul>
     
-    <p>15 Bench </p>
+    <p class="underscore">15 Bench Positions</p>
 
-    <p>2 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p class="underscore">3 IR Slots </p>
+        <ul>
+            <li>Player must be labeled as IR, Out, or Covid in the Sleeper App</li>
+            <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation</li>
+            <li>If a manager is caught attempting to hold players on the Injured Reserve with the incorrect desgniation to avoid dropping a player, the will recieve a warning and will be expected to correct their roster.</li>
+            <li> If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then manager with highest waiver priority will be allowed to pickup said player.</li>
+            
+    
+    <p class="underscore"> Taxi Squad 
     
         <h4 bind:this={oneOneOne}>2.1.1 Position Maximums</h4>
         
