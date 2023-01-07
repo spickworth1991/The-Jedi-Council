@@ -219,7 +219,7 @@
         </div>
 
 
-    <h3 class=sectionheading bind:this={oneTwo}>2.2 Trading</h3>
+    <h3 class="sectionheading" bind:this={oneTwo}>2.2 Trading</h3>
     
     <p>Trading of players and draft picks (up to 3 drafts away only if paid for that year) are allowed and encouraged. Trades will process immediately but will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
     
