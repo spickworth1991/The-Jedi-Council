@@ -195,8 +195,8 @@
             <li>Player must be labeled as IR, Out, or Covid in the Sleeper App</li>
             <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation</li>
             <li>If a manager is caught attempting to hold players on the Injured Reserve with the incorrect desgniation to avoid dropping a player, the will recieve a warning and will be expected to correct their roster.</li>
-            <li> If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then manager with highest waiver priority will be allowed to pickup said player.</li>
-            
+            <li> If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then the manager with highest waiver priority will be allowed to pickup said player.</li>
+        </ul>
     
     <p class="underscore"> Taxi Squad 
     
