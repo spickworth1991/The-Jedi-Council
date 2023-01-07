@@ -199,8 +199,13 @@
         </ul>
     
     <p class="underscore"> Taxi Squad 
+        <ul>
+            <li>Each team has a Taxi Squad for 4 rookies</li>
+            <li>You can move players into the taxi squad until the regular season starts. Once the deadline passes, you may no longer move players into taxi squad.</li>
+            <li>You can always move players from the taxi squad to your main roster. You will have to drop a player unless there is already room on your bench</li>
+            <li>Players with more than 2 years of experience in the NFL must be activated from the Taxi Squad.</li>
     
-        <h4 bind:this={oneOneOne}>2.1.1 Position Maximums</h4>
+ <h4 bind:this={oneOneOne}>2.1.1 Position Maximums</h4>
         
         <div class="subBlock">
             <table class="positionMaximums">
