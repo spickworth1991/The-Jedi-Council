@@ -100,6 +100,11 @@
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 1: Changes from previous season. </h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>1.1 End of Season </h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>1.2 IR Slot Increase</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>1.3 FAAB Bidding</h4>
+    
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 2: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>2.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>2.1.1 Position Maximums</h5>
@@ -139,11 +144,22 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 8: League Finances</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>8.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>8.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>8.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>8.2 Payout</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>8.3 Raising Dues</h4>
     
     
     <hr />
+    
+        <h2 class="sectionHeading" bind:this={eight}>Section 1 Changes from Previous Season. These were voted and passed by majority. </h2>
+    
+    <h3 bind:this={eightOne}>1.1 End of Season</h3>
+    <p>Starting in 2023 the Season will now last 17 weeks, instead of 18 weeks like in 2022. The playoffs will start week 15 and The Championship match and 3rd place match will take place Week 17.</p>
+
+    <h3 bind:this={eightTwo}>1.2 IR Slot Increase</h3>
+    <p>The IR slots will be increased from 2 to 3 slots for the 2023 season and going forward. </p>
+    
+    <h3 bind:this={eightThree}>1.3 FAAB Bidding</h3>
+    <p>We have decided to go to FAAB bidding style of waivers instead of standrd rolling waivers. </p>
     
     <h2 class="sectionHeading" bind:this={one}>Section 2 Roster Breakdown</h2>
     
