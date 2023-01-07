@@ -152,6 +152,7 @@
     <hr />
     
         <h2 class="sectionHeading" bind:this={eight}>Section 1 Changes from Previous Season. These were voted and passed by majority. </h2>
+        <p> These were voted on and passed by a majority. All changes will always need a majority vote to pass, and  will be listed in Section 1 of this constitution. Changes will not be made mid season unless extenuating circumstances occur, that causes league breaking issues.    
     
     <h3 bind:this={eightOne}>1.1 End of Season</h3>
     <p>Starting in 2023 the Season will now last 17 weeks, instead of 18 weeks like in 2022. The playoffs will start week 15 and The Championship match and 3rd place match will take place Week 17.</p>
