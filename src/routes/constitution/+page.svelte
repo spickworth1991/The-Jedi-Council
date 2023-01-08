@@ -51,7 +51,7 @@
 
     h5 {
         margin-left: 6em;
-        font-size: 0.8em;
+        font-size: 1.0em;
         line-height: 1.1em;
             }
 
@@ -94,11 +94,11 @@
     }
 
     .clickable:hover {
-        color: #00316b;
+        color: #006b0e;
     }
 
     p {
-        color: #777;
+        color: rgb(28, 1, 128);
     }
 </style>
 
@@ -162,13 +162,13 @@
     
     <h3 bind:this={eightOne}>1.1 End of Season</h3>
     <p>Starting in 2023 the Season will now last 17 weeks, instead of 18 weeks like in 2022. The playoffs will start week 15 and The Championship match and 3rd place match will take place Week 17.</p>
-
+    <h6 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>- See Section "5.1 Playoffs"</h6>
     <h3 bind:this={eightTwo}>1.2 IR Slot Increase</h3>
     <p>The IR slots will be increased from 2 to 3 slots for the 2023 season and going forward. </p>
     
     <h3 bind:this={eightThree}>1.3 FAAB Bidding</h3>
     <p>We have decided to go to FAAB bidding style of waivers instead of standard rolling waivers. </p>
-     <h6 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>-Click here to take you to FAAB section</h6>
+     <h6 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>-See Section "2.3 FAAB Bidding/Waiver Wire"</h6>
     
     <h2 class="sectionHeading" bind:this={one}>Section 2 Roster Breakdown</h2>
     
@@ -270,9 +270,18 @@
     
     
     
-    <h3 bind:this={oneThree}>2.3 Waiver Wire</h3>
+    <h3 bind:this={oneThree}>2.3 FAAB Bidding/Waiver Wire</h3>
     
-    <p> Currently using a daily wire system, with no FAAB. Players currently stay on wire after playing until Wed at 3AM EST. Wednesday, Thursday, Friday, and Sunday the waivers are reset that day. Saturday is free agency </p>
+    <p class="underscore">FAAB Bidding</p>
+    <ul>
+        <li>Each team will begin the season with $100</li>
+        <li>$0 bids are allowed</li>
+        <li>Bids will process everynight at 03:00:00 AM EST Timezone</li>
+        <li>Thursday and Sunday will be waiver into free agency days. For Example: at 3 AM bids will process for the day, and then any player not dropped will be on the Free Agency.</li>
+    </ul>
+
+
+    <p> If using Rolling Waiver stay on wire after playing until Wed at 3AM EST. Wednesday, Thursday, Friday, and Sunday the waivers are reset that day. Saturday is free agency </p>
     
     <p> If FAAB system goes into place, rules set for FAAB will be followed. <p/>
     
@@ -301,7 +310,7 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>5.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 16.. Each playoff matchup will only last one week and the winner will advance.</p>
+    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15.. Each playoff matchup will only last one week and the winner will advance.</p>
     
     <h3 bind:this={fourTwo}>5.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
