@@ -98,7 +98,7 @@
     }
 
     p {
-        color: rgb(28, 1, 128);
+        color: rgb(101, 100, 102);
     }
 </style>
 
@@ -277,8 +277,24 @@
         <li>Each team will begin the season with $100</li>
         <li>$0 bids are allowed</li>
         <li>Bids will process everynight at 03:00:00 AM EST Timezone</li>
-        <li>Thursday and Sunday will be waiver into free agency days. For Example: at 3 AM bids will process for the day, and then any player not dropped will be on the Free Agency.</li>
+        <li>When a player is dropped they are put on the Waivers for 24 hours.</li>
+        <li>Player on waivers will be locked upon the start of their week's game, this will clear Tuesday at 3 AM EST Timezone</li>
+        <li>Monday, Thursday, and Sunday will be waiver into free agency days. For Example: at 3 AM bids will process for the day, and then any player that hasnt been dropped will be on the Free Agency.</li>
     </ul>
+
+    <p class="underscore">Waiver Schedule</p>
+    <div class="subBlock">
+        <table class="positionMaximums">
+            <tr><td>Tuesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td>Wednesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td>Thursday</td><td class="right">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Friday</td></tr>
+            <tr><td>Friday</td><td class="right">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
+            <tr><td>Saturday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td>Sunday</td><td class="right">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Monday</td></tr>
+            <tr><td>Monday</td><td class="right">Players will return to Waivers at 3 AM EST. Bids can be put in to process Tuesday at 3 AM</td></tr>
+
+        </table>
+    </div>
 
 
     <p> If using Rolling Waiver stay on wire after playing until Wed at 3AM EST. Wednesday, Thursday, Friday, and Sunday the waivers are reset that day. Saturday is free agency </p>
