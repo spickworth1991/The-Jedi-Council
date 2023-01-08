@@ -84,6 +84,7 @@
     .right2 {
         text-align: right;
         font-size: 0.8em;
+        font-Weight: "bold"
     }
 
 
