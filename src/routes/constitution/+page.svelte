@@ -161,7 +161,8 @@
     <p>The IR slots will be increased from 2 to 3 slots for the 2023 season and going forward. </p>
     
     <h3 bind:this={eightThree}>1.3 FAAB Bidding</h3>
-    <p>We have decided to go to FAAB bidding style of waivers instead of standrd rolling waivers. </p>
+    <p>We have decided to go to FAAB bidding style of waivers instead of standard rolling waivers. </p>
+     <h5 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>Click here to go to FAAB rules</h5>
     
     <h2 class="sectionHeading" bind:this={one}>Section 2 Roster Breakdown</h2>
     
@@ -253,7 +254,7 @@
     
     <h4 bind:this={oneTwoFour}>2.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away, and you will only be allowed to make those trades if the year is paid in full.  For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away, and you will only be allowed to make those trades if the year is paid in full.  For example, during the 2023 season you cannot trade any picks in or after the 2027 draft. You may only trade FAAB $ from the current season.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>2.2.5 Veto/Trade Process</h4>
