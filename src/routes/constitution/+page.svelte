@@ -53,6 +53,12 @@
         margin-left: 6em;
         font-size: 0.8em;
         line-height: 1.1em;
+            }
+
+    h6 {
+        margin-left: 2em;
+        font-size: 0.8em;
+        line-height: 1.1em;
     }
 
     .subBlock {
@@ -162,7 +168,7 @@
     
     <h3 bind:this={eightThree}>1.3 FAAB Bidding</h3>
     <p>We have decided to go to FAAB bidding style of waivers instead of standard rolling waivers. </p>
-     <h5 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>Click here to go to FAAB rules</h5>
+     <h6 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>-Click here to take you to FAAB section</h6>
     
     <h2 class="sectionHeading" bind:this={one}>Section 2 Roster Breakdown</h2>
     
