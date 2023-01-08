@@ -91,6 +91,7 @@
     .positionMaximums td {
         min-width: 1em;
         font-size: 0.8em;
+        font-Weight: "bold"
     }
 
     .noUnderscore {
@@ -297,7 +298,9 @@
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
+            <tr><td></td><td class="right"></td></tr>
             <tr><td>Wednesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
@@ -305,7 +308,9 @@
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
+            <tr><td></td><td class="right"></td></tr>
             <tr><td>Friday</td><td class="right2">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
+            <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
@@ -313,7 +318,9 @@
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
+            <tr><td></td><td class="right"></td></tr>
             <tr><td>Sunday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Monday</td></tr>
+            <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
