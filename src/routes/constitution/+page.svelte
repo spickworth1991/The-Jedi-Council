@@ -83,12 +83,13 @@
 
     .right2 {
         text-align: right;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
 
     .positionMaximums td {
-        min-width: 3em;
+        min-width: 1em;
+        font-size: 0.8em;
     }
 
     .noUnderscore {
