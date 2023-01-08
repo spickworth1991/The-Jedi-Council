@@ -214,14 +214,17 @@
             <li>Player must be labeled as IR, Out, or Covid in the Sleeper App</li>
             <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation</li>
             <li>If a manager is caught attempting to hold players on the Injured Reserve with the incorrect desgniation to avoid dropping a player, they will recieve a warning and will be expected to correct their roster.</li>
-            <li> If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then the manager with highest waiver priority will be allowed to pickup said player.</li>
+            <li>If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then the manager with highest waiver priority will be allowed to pickup said player.</li>
+            <li>Generally the commissioner (StickyPicky) will do everything in his power to have any roster situations settled by Thurday morning. In hopes that everyone has time to adjust accordingly.</li>
+            <li>The commissioner (StickyPicky) will do everything in his power to try and catch these things, however if you notice an issue with a roster, please direct message StickyPicky on the sleeper app.</li>
+            <li>Try to avoid bringing it up in the main chat, just let StickyPicky know please so he can take care of it. </li>
         </ul>
     
     <p class="underscore"> Taxi Squad 
         <ul>
             <li>Each team has a Taxi Squad for 4 rookies</li>
             <li>You can move players into the taxi squad until the regular season starts. Once the deadline passes, you may no longer move players into taxi squad.</li>
-            <li>You can always move players from the taxi squad to your main roster. You will have to drop a player unless there is already room on your bench</li>
+            <li>You can always move players from the taxi squad to your main roster, however you will have to drop a player from your bench unless there is already space.</li>
             <li>Players with more than 2 years of experience in the NFL must be activated from the Taxi Squad.</li>
         </ul>
     
@@ -233,8 +236,6 @@
                 <tr><td>RB</td><td class="right">20</td></tr>
                 <tr><td>WR</td><td class="right">20</td></tr>
                 <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
             </table>
         </div>
 
@@ -245,14 +246,13 @@
     <h4 bind:this={oneTwoOne}>2.2.1 Trade Collusion</h4>
     <div class="subBlock">
         <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        <p> All FAAB rules only apply if FAAB is turned on. <p/>
         <ul>
             <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
             <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
             <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
         </ul>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
+        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be rescored.  </p>
 
         <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
 
@@ -266,17 +266,17 @@
     
     <h4 bind:this={oneTwoThree}>2.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 13 games of the NFL season.</p>
+        <p>The trade deadline will be set for week 13. All trades must be accepted prior to the end of the final game of week 13.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>2.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away, and you will only be allowed to make those trades if the year is paid in full.  For example, during the 2023 season you cannot trade any picks in or after the 2027 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away, and you will only be allowed to make those trades if the year is paid in full.  For example, during the 2023 season you cannot trade any picks in or after the 2027 draft. FAAB money may only be traded from the current season.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>2.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+        <p>Trade Vetos are off within the sleeper app, so trades will go through instantly. If there is suspected collusion within a trade, a vote will take place deciding the matter. A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of CLEAR collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
     </div>
     
     
@@ -290,7 +290,8 @@
         <li>Bids will process everynight at 03:00:00 AM EST Timezone</li>
         <li>When a player is dropped they are put on the Waivers for 24 hours.</li>
         <li>Player on waivers will be locked upon the start of their week's game, this will clear Tuesday at 3 AM EST Timezone</li>
-        <li>Monday, Thursday, and Sunday will be waiver into free agency days. For Example: at 3 AM bids will process for the day, and then any player that hasnt been dropped will be on the Free Agency.</li>
+        <li>Thursday and Sunday will be "waiver into free agency" days. For Example: at 3 AM bids will process for the day, and then any player that hasnt been dropped will be on the Free Agency.</li>
+        <li>FAAB budget will reset each season upon season renewal</li>
     </ul>
 
     <p class="underscore">Waiver Schedule</p>
@@ -331,14 +332,6 @@
         </table>
     </div>
 
-
-    <p> If using Rolling Waiver stay on wire after playing until Wed at 3AM EST. Wednesday, Thursday, Friday, and Sunday the waivers are reset that day. Saturday is free agency </p>
-    
-    <p> If FAAB system goes into place, rules set for FAAB will be followed. <p/>
-    
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 3AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Section 3 Drafting</h2>
@@ -347,17 +340,49 @@
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
     <h3 bind:this={twoTwo}>3.2 Rookie Drafts</h3>
-    <p>Rookie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
+    <p>Rookie drafts will consist of 5 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (7) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>3.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade. However please be considerate of your leaguemates time.</p>
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 4 Scoring System</h2>
 
     <h3 bind:this={threeOne}>4.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app. It does have some bonuses, please make sure to read that thoroughly. The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app. Please make sure to read that thoroughly. The scoring system will never change without a majority league vote.</p>
     
+    <h4>Passing</h4>
+    <div class="subBlock">
+        <table class="positionMaximums">
+            <tr><td>Passing Yards</td><td class="right">1 point ever 25 yards</td></tr>
+            <tr><td>Passing TD</td><td class="right">6</td></tr>
+            <tr><td>Passing 1st Down</td><td class="right">.5</td></tr>
+            <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
+            <tr><td>Pass Intercepted</td><td class="right">-1</td></tr>
+            <tr><td>Pick 6 Thrown</td><td class="right">-6</td></tr>
+            <tr><td>Pass Completed</td><td class="right">.25</td></tr>
+            <tr><td>Incomplete Pass</td><td class="right">-.15</td></tr>
+            <tr><td>40+ YD Completion Bonus</td><td class="right">1</td></tr>
+            <tr><td>40+ YD Pass TD Bonus</td><td class="right">2</td></tr>
+            <tr><td>50+ YD Pass TD Bonus</td><td class="right">3</td></tr>
+        </table>
+    </div>
+
+    <h4>Rushing</h4>
+    <div class="subBlock">
+        <table class="positionMaximums">
+            <tr><td>Rushing Yards</td><td class="right">1 point ever 10 yards</td></tr>
+            <tr><td>Rushing TD</td><td class="right">6</td></tr>
+            <tr><td>Rushing 1st Down</td><td class="right">1</td></tr>
+            <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
+            <tr><td>Rush Attempts</td><td class="right">.25</td></tr>
+            <tr><td>40+ YD Rush Bonus</td><td class="right">1</td></tr>
+            <tr><td>40+ YD Rush TD Bonus</td><td class="right">2</td></tr>
+            <tr><td>50+ YD Rush TD Bonus</td><td class="right">3</td></tr>
+        </table>
+    </div>
+
+
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>5.1 Playoffs</h3>
