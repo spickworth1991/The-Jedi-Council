@@ -286,9 +286,9 @@
     <div class="subBlock">
         <table class="positionMaximums">
             <tr><td>Tuesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
-
+            <tr><td></td><td class="right"></td></tr>
             <tr><td>Wednesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
-            
+            <tr><td></td><td class="right"></td></tr>
             <tr><td>Thursday</td><td class="right">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Friday</td></tr>
             <tr><td>Friday</td><td class="right">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
             <tr><td>Saturday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
