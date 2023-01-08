@@ -446,7 +446,7 @@
     <ul>
         <li>At the end of the season, the bottom 4 teams will play to avoid battling for last place.</li>
         <li>The LOSING team from each round gets "flushed" to the next round.</li>
-        <li>Each playoff match will last one week, and the winner will advance to the next round.</li>
+        <li>Each playoff match will last one week. The winner will place and be done, whle the loser will advance to the next round.</li>
         <li>Week 16 will host the The Toilet Bowl, and will be the last week of the season for the players in the bracket.</li>
     </ul>
 
@@ -505,7 +505,6 @@
     
     <h3 bind:this={sevenThree}>8.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
-
 
     <h2 class="sectionHeading" bind:this={nine}>Section 9 Amendments</h2>
     
