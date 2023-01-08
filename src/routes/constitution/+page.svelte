@@ -52,13 +52,13 @@
     h5 {
         margin-left: 6em;
         font-size: 0.8em;
-        line-height: .7em;
+        line-height: 1.1em;
             }
 
     h6 {
         margin-left: 2em;
         font-size: 0.8em;
-        line-height: 1.1em;
+        line-height: .5em;
     }
 
     .subBlock {
