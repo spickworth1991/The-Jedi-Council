@@ -466,16 +466,16 @@
     <h3 bind:this={fiveOne}>6.1 Good Sportsmanship</h3>
     <p>All owners are expected to set their best possible lineup each week and to attempt to win every game to the best of their ability. As explained below, collusion, tanking, churning, and inactivity are violations of this code of conduct.</p>
 
-    <h3 bind:this={fiveTwo}>6.1 Collusion</h3>
+    <h3 bind:this={fiveTwo}>6.2 Collusion</h3>
     <p>Collusion is prohibited. Collusion occurs when two teams work together against the rest of the league, or one team makes moves to benefit another team without trying to improve its own position. Collusion undermines the ethic of good sportsmanship as well as the competitive balance of the league. Examples include: one-sided trades; dropping a player so that another team may pick up that player; transactions that involve future considerations or preferential treatment; and swapping players to cover bye weeks or injury.</p>
 
-    <h3 bind:this={fiveThree}>6.1 League Tanking Policy</h3>
+    <h3 bind:this={fiveThree}>6.3 Tanking</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
-    <h3 bind:this={fiveFour}>6.1 Churning</h3>
+    <h3 bind:this={fiveFour}>6.4 Churning</h3>
     <p>Churning occurs when a team adds and drops players on waivers for the sole purpose of making them unavailable to other teams, which is prohibited.</p>
 
-    <h3 bind:this={fiveFive}>6.1 Inactivity</h3>
+    <h3 bind:this={fiveFive}>6.5 Inactivity</h3>
     <p>A team is considered inactive if there are inactive, injured, or bye week players in the starting lineup, or empty lineup positions, and no changes have been made to the roster. The commissioner will contact an owner whose team is inactive for two or more weeks in a row. If the team remains inactive, the commissioner reserves the right to make changes to fill the roster and eventually hold a vote to reassign ownership of the team for purposes of competitive balance.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 7 Replacing Managers</h2>
