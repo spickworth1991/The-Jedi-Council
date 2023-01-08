@@ -1,6 +1,6 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
+    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
     let four, fourOne, fourTwo;
@@ -172,12 +172,14 @@
     <h3 bind:this={eightOne}>1.1 End of Season</h3>
     <p>Starting in 2023 the Season will now last 17 weeks, instead of 18 weeks like in 2022. The playoffs will start week 15 and The Championship match and 3rd place match will take place Week 17.</p>
     <h6 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>- See Section "5.1 Playoffs"</h6>
+
     <h3 bind:this={eightTwo}>1.2 IR Slot Increase</h3>
     <p>The IR slots will be increased from 2 to 3 slots for the 2023 season and going forward. </p>
-    
+    <h6 class="noUnderscore clickable" on:click={() => goToSection(oneFour)}>- See Section "2.1 Positional Breakdown; 3 IR Slots"</h6>
+
     <h3 bind:this={eightThree}>1.3 FAAB Bidding</h3>
     <p>We have decided to go to FAAB bidding style of waivers instead of standard rolling waivers. </p>
-     <h6 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>-See Section "2.3 FAAB Bidding/Waiver Wire"</h6>
+    <h6 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>-See Section "2.3 FAAB Bidding/Waiver Wire"</h6>
     
     <h2 class="sectionHeading" bind:this={one}>Section 2 Roster Breakdown</h2>
     
@@ -207,7 +209,7 @@
     
     <p class="underscore">15 Bench Positions</p>
 
-    <p class="underscore">3 IR Slots </p>
+    <p class="underscore" bind:this={oneFour}>3 IR Slots </p>
         <ul>
             <li>Player must be labeled as IR, Out, or Covid in the Sleeper App</li>
             <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation</li>
