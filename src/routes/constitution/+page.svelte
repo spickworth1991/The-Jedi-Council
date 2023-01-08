@@ -79,6 +79,7 @@
 
     .right {
         text-align: right;
+        font-size: 0.8em;
     }
 
     .positionMaximums td {
@@ -285,7 +286,7 @@
     <p class="underscore">Waiver Schedule</p>
     <div class="subBlock">
         <table class="positionMaximums">
-            <tr><td>Tuesday</td><td <h6 class="right">FAAB Waivers- bids process at 3 AM EST</h6></td></tr>
+            <tr><td>Tuesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td>Wednesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
