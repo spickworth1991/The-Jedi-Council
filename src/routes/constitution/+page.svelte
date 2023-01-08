@@ -8,6 +8,7 @@
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
     let eight, eightOne, eightTwo, eightThree;
+    let nine, nineOne, nineTwo;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -147,9 +148,13 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>5.1 Playoffs</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>5.2 Playoff Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 6: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 6: Code of Contact</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>6.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>6.1 Good Sportsmanship</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>6.1 Collusion</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>6.1 Tanking</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFour)}>6.1 Churning</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFive)}>6.1 Inactivity</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 7: Replacing Managers</h3>
     
@@ -162,7 +167,12 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>8.1 League Dues</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>8.2 Payout</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>8.3 Raising Dues</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Amendments</h3>
     
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineOne)}>9.1 Off-Season Changes</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineTwo)}>9.2 In-Season Changes</h4>
     
     <hr />
     
@@ -211,8 +221,8 @@
 
     <p class="underscore" bind:this={oneFour}>3 IR Slots </p>
         <ul>
-            <li>Player must be labeled as IR, Out, or Covid in the Sleeper App</li>
-            <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation</li>
+            <li>Player must be labeled as IR, Out, or Covid in the Sleeper App.</li>
+            <li>The Sleeper App will not let you set your lineup if a player is on the IR without the correct designation.</li>
             <li>If a manager is caught attempting to hold players on the Injured Reserve with the incorrect desgniation to avoid dropping a player, they will recieve a warning and will be expected to correct their roster.</li>
             <li>If said manager does not fix their roster, then the commissioner will remove the player that put the manager over the roster limit. If its a free agency day, then the manager with highest waiver priority will be allowed to pickup said player.</li>
             <li>Generally the commissioner (StickyPicky) will do everything in his power to have any roster situations settled by Thurday morning. In hopes that everyone has time to adjust accordingly.</li>
@@ -222,7 +232,7 @@
     
     <p class="underscore"> Taxi Squad 
         <ul>
-            <li>Each team has a Taxi Squad for 4 rookies</li>
+            <li>Each team has a Taxi Squad for 4 rookies.</li>
             <li>You can move players into the taxi squad until the regular season starts. Once the deadline passes, you may no longer move players into taxi squad.</li>
             <li>You can always move players from the taxi squad to your main roster, however you will have to drop a player from your bench unless there is already space.</li>
             <li>Players with more than 2 years of experience in the NFL must be activated from the Taxi Squad.</li>
@@ -241,14 +251,14 @@
 
 <h3 class="subSectionHeading" bind:this={oneTwo}>2.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away only if paid for that year) are allowed and encouraged. Trades will process immediately but will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away only if paid for the year being traded) are allowed and encouraged. Trades will process immediately but will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>2.2.1 Trade Collusion</h4>
     <div class="subBlock">
         <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
         <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
+            <li>First Offense – Immediate reduction of FAAB budget by 80%.</li>
+            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids.</li>
             <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
         </ul>
 
@@ -285,13 +295,13 @@
     
     <p class="underscore">FAAB Bidding</p>
     <ul>
-        <li>Each team will begin the season with $100</li>
-        <li>$0 bids are allowed</li>
+        <li>Each team will begin the season with $100.</li>
+        <li>$0 bids are allowed.</li>
         <li>Bids will process everynight at 03:00:00 AM EST Timezone</li>
         <li>When a player is dropped they are put on the Waivers for 24 hours.</li>
-        <li>Player on waivers will be locked upon the start of their week's game, this will clear Tuesday at 3 AM EST Timezone</li>
+        <li>Players on waivers will be locked upon the start of their week's game, this will clear Tuesday at 3 AM EST Timezone.</li>
         <li>Thursday and Sunday will be "waiver into free agency" days. For Example: at 3 AM bids will process for the day, and then any player that hasnt been dropped will be on the Free Agency.</li>
-        <li>FAAB budget will reset each season upon season renewal</li>
+        <li>FAAB budget will reset each season upon season renewal.</li>
     </ul>
 
     <p class="underscore">Waiver Schedule</p>
@@ -421,11 +431,25 @@
     </div>
 
 
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
+    <h2 class="sectionHeading" bind:this={four}>Section 5 Postseason</h2>
     
     <h3 bind:this={fourOne}>5.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15.. Each playoff matchup will only last one week and the winner will advance.</p>
-    
+    <h4>Championship</h4>
+    <ul>
+        <li>At the end of the season, 6 teams will make the playoffs.</li>
+        <li>The first round of the playoffs will commence in week 15.</li>
+        <li>Each playoff match will last one week, and the winner will advance to the next round.</li>
+        <li>Week 17 will host the Championship game, and will be the last week of the season.</li>
+    </ul>
+
+    <h4>Toilet Bowl</h4>
+    <ul>
+        <li>At the end of the season, the bottom 4 teams will play to avoid battling for last place.</li>
+        <li>The LOSING team from each round gets "flushed" to the next round.</li>
+        <li>Each playoff match will last one week, and the winner will advance to the next round.</li>
+        <li>Week 16 will host the The Toilet Bowl, and will be the last week of the season for the players in the bracket.</li>
+    </ul>
+
     <h3 bind:this={fourTwo}>5.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
@@ -437,12 +461,24 @@
         <li>Duel to the death</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 6 Code of Conduct</h2>
     
-    <h3 bind:this={fiveOne}>6.1 League Tanking Policy</h3>
+    <h3 bind:this={fiveOne}>6.1 Good Sportsmanship</h3>
+    <p>All owners are expected to set their best possible lineup each week and to attempt to win every game to the best of their ability. As explained below, collusion, tanking, churning, and inactivity are violations of this code of conduct.</p>
+
+    <h3 bind:this={fiveTwo}>6.1 Collusion</h3>
+    <p>Collusion is prohibited. Collusion occurs when two teams work together against the rest of the league, or one team makes moves to benefit another team without trying to improve its own position. Collusion undermines the ethic of good sportsmanship as well as the competitive balance of the league. Examples include: one-sided trades; dropping a player so that another team may pick up that player; transactions that involve future considerations or preferential treatment; and swapping players to cover bye weeks or injury.</p>
+
+    <h3 bind:this={fiveThree}>6.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h3 bind:this={fiveFour}>6.1 Churning</h3>
+    <p>Churning occurs when a team adds and drops players on waivers for the sole purpose of making them unavailable to other teams, which is prohibited.</p>
+
+    <h3 bind:this={fiveFive}>6.1 Inactivity</h3>
+    <p>A team is considered inactive if there are inactive, injured, or bye week players in the starting lineup, or empty lineup positions, and no changes have been made to the roster. The commissioner will contact an owner whose team is inactive for two or more weeks in a row. If the team remains inactive, the commissioner reserves the right to make changes to fill the roster and eventually hold a vote to reassign ownership of the team for purposes of competitive balance.</p>
+
+    <h2 class="sectionHeading" bind:this={six}>Section 7 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>7.1 Removing Managers</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally NOT grounds for removal.</p>
@@ -451,22 +487,35 @@
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>7.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reduction on their first year buy-in. If the year isnt already paid for.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 8 League Finances</h2>
     
     <h3 bind:this={sevenOne}>8.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
     
     <h3 bind:this={sevenTwo}>8.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 9}$</li>
-        <li>2nd place: {dues}$</li>
+        <li>1st place: {dues * 7}$</li>
+        <li>2nd place: {dues * 2}$</li>
+        <li>3rd place: {dues}$</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
     <h3 bind:this={sevenThree}>8.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+
+
+    <h2 class="sectionHeading" bind:this={nine}>Section 9 Amendments</h2>
+    
+    <h3 bind:this={nineOne}>9.1 Off-Season Changes</h3>
+    <p>Any owner may suggest rule modifications to the commissioner during the league’s offseason. A simple majority vote of all owners may amend this constitution.</p>
+
+    <h3 bind:this={nineTwo}>9.2 In-Season Changes</h3>
+    <p>The Commissioner may make in-season rule changes only in exceptional circumstances, with input of the league owners.</p>
+
+
+
 
 </div>
