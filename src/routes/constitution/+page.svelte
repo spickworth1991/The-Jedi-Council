@@ -82,7 +82,7 @@
     }
 
     .positionMaximums td {
-        min-width: 3em;
+        min-width: 6em;
     }
 
     .noUnderscore {
