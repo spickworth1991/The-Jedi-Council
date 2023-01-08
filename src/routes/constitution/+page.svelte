@@ -151,10 +151,10 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 6: Code of Contact</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>6.1 Good Sportsmanship</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>6.1 Collusion</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>6.1 Tanking</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFour)}>6.1 Churning</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFive)}>6.1 Inactivity</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>6.2 Collusion</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>6.3 Tanking</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFour)}>6.4 Churning</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFive)}>6.5 Inactivity</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 7: Replacing Managers</h3>
     
