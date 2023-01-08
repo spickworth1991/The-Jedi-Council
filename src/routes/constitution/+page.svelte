@@ -79,11 +79,16 @@
 
     .right {
         text-align: right;
-        font-size: 0.8em;
     }
 
+    .right2 {
+        text-align: right;
+        font-size: 0.9em;
+    }
+
+
     .positionMaximums td {
-        min-width: 6em;
+        min-width: 3em;
     }
 
     .noUnderscore {
@@ -286,25 +291,25 @@
     <p class="underscore">Waiver Schedule</p>
     <div class="subBlock">
         <table class="positionMaximums">
-            <tr><td>Tuesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td>Tuesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
-            <tr><td>Wednesday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td>Wednesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
-            <tr><td>Thursday</td><td class="right">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Friday</td></tr>
+            <tr><td>Thursday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Friday</td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
-            <tr><td>Friday</td><td class="right">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
+            <tr><td>Friday</td><td class="right2">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
-            <tr><td>Saturday</td><td class="right">FAAB Waivers- bids process at 3 AM EST</td></tr>
+            <tr><td>Saturday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
-            <tr><td>Sunday</td><td class="right">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Monday</td></tr>
+            <tr><td>Sunday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Monday</td></tr>
             <tr><td></td><td class="right"></td></tr>
             <tr><td></td><td class="right"></td></tr>
-            <tr><td>Monday</td><td class="right">Players will return to Waivers at 3 AM EST. Bids can be put in to process Tuesday at 3 AM</td></tr>
+            <tr><td>Monday</td><td class="right2">Players will return to Waivers at 3 AM EST. Bids can be put in to process Tuesday at 3 AM</td></tr>
 
         </table>
     </div>
