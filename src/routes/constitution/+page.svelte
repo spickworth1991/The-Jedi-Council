@@ -176,7 +176,7 @@
     
     <hr />
     
-        <h2 class="sectionHeading" bind:this={eight}>Section 1 Changes from Previous Season.  </h2>
+        <h2 class="sectionHeading" bind:this={eight}>Section 1 Changes from Previous Season  </h2>
         <p> These were voted on and passed by a majority. All changes will always need a majority vote to pass, and will always be listed in Section 1 of this constitution the first year they are implented. Changes will not be made mid season unless extenuating circumstances occur, that causes league breaking issues.    
     
     <h3 bind:this={eightOne}>1.1 End of Season</h3>
