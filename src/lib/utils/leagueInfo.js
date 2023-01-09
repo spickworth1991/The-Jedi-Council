@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to The League.</p>
-  <p>Just testing out this, cause i thought it would be cool to have. </p>
+  <p>If you notice any issues with the website, please let StickyPicky know so he can fix it. </p>
   <p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
   <p></p>
   <p></p>
