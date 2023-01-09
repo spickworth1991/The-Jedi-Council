@@ -2,7 +2,7 @@
     import { dues } from '$lib/utils/helper';
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour;
     let two, twoOne, twoTwo, twoThree;
-    let three, threeOne;
+    let three, threeOne, threeTwo;
     let four, fourOne, fourTwo;
     let five, fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive;
     let six, sixOne, sixTwo, sixThree;
@@ -141,7 +141,9 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 4: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>4.1 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>4.1 Extenuating Circumstances</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>4.2 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>4.3 Points Structure</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 5: Postseason</h3>
     
@@ -358,9 +360,23 @@
     
     <h2 class="sectionHeading" bind:this={three}>Section 4 Scoring System</h2>
 
-    <h3 bind:this={threeOne}>4.1 Scoring System</h3>
-    <p>The scoring system will not change without a majority league vote. A vote for scoring change can only be done in the off season. Unless some sort of league breaking event happens.</p>
+    <h3 bind:this={threeOne}>4.1 Extenuating Circumstances</h3>
+    <p>In the event of the NFL canceling a game, the commissioner will manually calculate the scores for the owners affected. This will be done using the average points per game. </p>
     
+    <ul>
+        <li>For example:</li>
+        <li>Josh Allens game gets canceled 5 min into his game.</li>
+        <li>He has averaged 24.16 FPTS/GAME (Fantasy points per game).</li>
+        <li>We would subtract any points he had recieved for the 5 min of play from the total points from that week.</li>
+        <li>We then will add the 24.16 to the total points</li>
+    </ul>
+   
+    <p> We will do this for all players affected by the game being canceled.</p>
+
+    <h3 bind:this={threeTwo}>4.2 Voting on Scoring System</h3>
+    <p>The scoring system will not change without a majority league vote. A vote for scoring change can only be done in the off season. Unless some sort of league breaking event happens.</p>
+
+    <h3 bind:this={threeThree}>4.3 Points Structure</h3>
     <h4>Passing</h4>
     <div class="subBlock">
         <table class="positionMaximums">
