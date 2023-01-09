@@ -2,7 +2,7 @@
     import { dues } from '$lib/utils/helper';
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree, oneFour;
     let two, twoOne, twoTwo, twoThree;
-    let three, threeOne, threeTwo;
+    let three, threeOne, threeTwo, threeThree;
     let four, fourOne, fourTwo;
     let five, fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive;
     let six, sixOne, sixTwo, sixThree;
