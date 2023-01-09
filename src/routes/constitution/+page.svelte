@@ -349,7 +349,7 @@
     <h2 class="sectionHeading" bind:this={two}>Section 3 Drafting</h2>
     
     <h3 bind:this={twoOne}>3.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <p>The draft order each year will be a snake draft. Using MaxPF (Max Points For) for non playoff teams, and order of finish for playoff teams.</p>
 
     <h3 bind:this={twoTwo}>3.2 Rookie Drafts</h3>
     <p>Rookie drafts will consist of 5 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (7) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
